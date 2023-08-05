@@ -1,0 +1,15 @@
+{
+  "name": "sphere",
+  "version": "1.0.0",
+  "author": "Sphere SH",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "sphere": "file:.."
+  }
+}

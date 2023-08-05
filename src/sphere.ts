@@ -8,3 +8,16 @@
  * @author  Romano Schoonheim <romano@atmosphere.sh>
  * @website https://www.sphere.sh/
  */
+import HttpServerInterface from './interfaces/http/server.http.interface';
+
+/**
+ * Sphere Application Class
+ * ----------------------------------------
+ *
+ *
+ */
+export default class Sphere implements HttpServerInterface {
+    constructor() {
+        console.log('Sphere JS');
+    }
+}
